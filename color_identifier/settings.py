@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://strip-analysis-d4452db22aa3.herokuapp.com']
 
+CSRF_TRUSTED_ORIGINS = ['https://strip-analysis-d4452db22aa3.herokuapp.com']
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+
 
 # Application definition
 
