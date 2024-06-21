@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-*uiuc=p&1bf2^@q)41*-i&_vi=+jrn^-vja=@^j4p!ome^^+jj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://strip-analysis-d4452db22aa3.herokuapp.com']
 
 
 # Application definition
