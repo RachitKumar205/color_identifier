@@ -1,1 +1,1 @@
-web: gunicorn color_identifier.wsgi
+web:gunicorn color_identifier.wsgi
