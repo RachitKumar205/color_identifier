@@ -47,6 +47,16 @@ This function processes an image to detect colors. It preprocesses the image, de
 
 This function preprocesses an image for color detection. It resizes the image, converts it to the HSV color space, applies CLAHE to the V channel, increases saturation, merges the enhanced S and V channels with the original H channel, and converts the image back to the BGR color space.
 
+## Setup
+
+Install all the dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the server with `python manage.py runserver`
+
 ## Usage
 
 To use the Color Identifier project, send a POST request to the `/api/process_image` endpoint with an image file included in the request body: `{"image":the image file}`. The response will include a dictionary of the detected colors.
