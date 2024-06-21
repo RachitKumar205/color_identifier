@@ -25,9 +25,7 @@ SECRET_KEY = "django-insecure-*uiuc=p&1bf2^@q)41*-i&_vi=+jrn^-vja=@^j4p!ome^^+jj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['strip-analysis-d4452db22aa3.herokuapp.com',"127.0.0.1"]
-
-CSRF_TRUSTED_ORIGINS = ['https://strip-analysis-d4452db22aa3.herokuapp.com']
+ALLOWED_HOSTS = ["127.0.0.1"]
 
 CORS_ORIGIN_ALLOW_ALL = True
 

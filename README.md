@@ -1,5 +1,9 @@
 # Urine Strip Colour Detection
 
+### Link to the frontend: 
+
+https://github.com/RachitKumar205/color_identifier_frontend
+
 ## Overview
 
 This project is the backend for the urine strip colour detection project. It is built using Django and OpenCV to process images and detect colors. The project includes an API endpoint to process images and return the detected colors.
